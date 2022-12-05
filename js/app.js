@@ -15,6 +15,7 @@ $(document).ready(function(){
     let list2 = document.querySelector('.list2');
     let list3 = document.querySelector('.list3');
     let list4= document.querySelector('.list4');
+    let list5= document.querySelector('.list5');
     
     hamberger.addEventListener('click', function(){
       mobileNav.classList.add('open');  
@@ -37,6 +38,9 @@ $(document).ready(function(){
     });
 
     list4.addEventListener('click', function(){
+        mobileNav.classList.remove('open');  
+    });
+    list5.addEventListener('click', function(){
         mobileNav.classList.remove('open');  
     });
     
