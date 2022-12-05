@@ -40,6 +40,7 @@ $(document).ready(function(){
     list4.addEventListener('click', function(){
         mobileNav.classList.remove('open');  
     });
+    
     list5.addEventListener('click', function(){
         mobileNav.classList.remove('open');  
     });
